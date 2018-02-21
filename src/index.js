@@ -14,7 +14,5 @@ const meInReact = React.createElement('div', { className: 'me' },
 
 ReactDOM.render(
   meInReact,
-  document.getElementById('global')
+  document.getElementById('root')
 );
-
-export default meInReact
